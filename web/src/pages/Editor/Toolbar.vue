@@ -188,7 +188,7 @@
 
   const deleteFile = (file) => files.deleteFile(file)
   const newFile = () => files.newFile()
-  const saveFile = () => files.saveFile()
+  const saveFile = () => files.saveFileGCS()
   const loadFile = (file) => files.loadFile(file)
 
   const confirmDeleteFile = (file) => {
